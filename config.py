@@ -35,12 +35,6 @@ heater_invert = 0 # switches the polarity of the heater control
 ### Inputs
 gpio_door = 15
 
-### Thermocouple Adapter selection:
-#   max31855 - bitbang SPI interface
-#   max31855spi - kernel SPI interface
-#   max6675 - bitbang SPI interface
-max31865 = 1
-
 ### Thermocouple Connection (using bitbang interfaces)
 gpio_sensor_cs = 24
 gpio_sensor_miso = 21
